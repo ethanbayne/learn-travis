@@ -1,4 +1,5 @@
 # Learn Travis
+***Tutorial forked from [dwyl/learn-travis](https://github.com/dwyl/learn-travis)***
 
 <div align="center">
     <a href="https://travis-ci.com/">
@@ -15,8 +16,11 @@
 
 </div>
 
-Our ***quick guide*** to **Travis CI** (*Continuous Integration*)
-for ***complete beginners***
+##  Foreward from Ethan
+
+Travis CI is an example of a Continious Integration (CI) tool for GitHub. Travis CI is a part of the GitHub Education Pack, offering free educational use on private repositories. Travis CI can support many different [development languages](https://docs.travis-ci.com/user/languages/). As most of you will be completing your coursework with different programming languages, it is advised that you research how to integrate Travis CI for your own development language ***after*** completing this short tutorial exercise.
+
+This tutorial will offer a ***quick guide*** to **Travis CI** (*Continuous Integration*) for ***complete beginners***
 
 ##  Index
 
@@ -90,7 +94,7 @@ Read them! If you have any questions,
 - **Integrates** nicely with **GitHub** (*without any developer effort*!)
 
 
-<sup>1</sup>We've used [Jenkins CI](https://jenkins-ci.org) in the past for *client* projects,  
+<sup>1</sup>[Jenkins CI](https://jenkins-ci.org) is arguably a more customisable CI tool,  
 but **Jenkins** has a
 [***steep learning curve***](https://shop.oreilly.com/product/0636920010326.do)
 for *new developers*.  
@@ -99,13 +103,13 @@ for *new developers*.
 <a name="how"></a>
 ## How?
 
-This tutorial will take you **20 minutes** and will ***save you hours***
-of frustration! #**NoBrainer**
+This tutorial will take you around **20 minutes** and will ***save you hours***
+of frustration!
 
 <a name="pre-requisites"></a>
 ### Pre-requisites
 
-+ **Computer** *with* **node.js** ***installed***
++ **Computer** *with* **node.js** ***(if you don't have node.js installed, you can skip the local testing steps)***
 + any **text editor**
 + machine with a debian system (Like Ubuntu)
 
@@ -226,7 +230,7 @@ To run the test command we will need to install the `jshint` node module from NP
 npm install jshint --save-dev
 ```
 
-Now you can run the `test` command *locally* by typing `npm test` in your terminal.
+If you have Node.js installed, you can run the `test` command *locally* by typing `npm test` in your terminal.
 
 If you do it, you can see the test fails. But we are not introducing you to Travis so  
 you can run tests manually, that's Travis's job! Let's see how Travis can run tests
