@@ -16,7 +16,7 @@
 
 </div>
 
-##  Foreward from Ethan
+##  Foreword from Ethan
 
 Travis CI is an example of a Continious Integration (CI) tool for GitHub. Travis CI is a part of the GitHub Education Pack, offering free educational use on private repositories. Travis CI can support many different [development languages](https://docs.travis-ci.com/user/languages/). As most of you will be completing your coursework with different programming languages, it is advised that you research how to integrate Travis CI for your own development language ***after*** completing this short tutorial exercise.
 
