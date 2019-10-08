@@ -21,6 +21,12 @@ Travis CI is an example of a Continious Integration (CI) tool for GitHub. Travis
 
 This tutorial will offer a ***quick guide*** to **Travis CI** (*Continuous Integration*) for ***complete beginners***
 
+TravisCI is compatible with: C, C++, Clojure, Elixir, Erlang, Go, Groovy, Haskell, Java, Node.js, Perl, PHP, Python, Ruby, Rust, Scala, Smalltalk.
+
+For other languages, check out alternative CI tools here: https://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software
+
+Some languages have their own CI tool support built into the IDE (e.g. C# and Visual Studio). For remote compilation and testing, have a look at GitLab, which hosts support for a "worker" machine to compile and run code tests for you.
+
 ##  Index
 
 1.  [Why](#why)
